@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://editprohub.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url><loc>https://editprohub.com/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://editprohub.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://editprohub.com/privacy-policy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://editprohub.com/terms.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://editprohub.com/disclaimer.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://editprohub.com/404.html</loc><changefreq>monthly</changefreq><priority>0.1</priority></url>
+
+  <!-- Category A: Image Editing & Adjustment -->
+  <url><loc>https://editprohub.com/tools/image-editing/brightness.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/contrast.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/saturation.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/hue.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/grayscale.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/sepia.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/invert.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/blur.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/sharpen.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/pixelate.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/vignette.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/opacity.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/duotone.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/color-balance.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/exposure.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/warmth.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/vintage.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/bw.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/noise.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/image-editing/posterize.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Category B: Cropping, Cutting & Resizing -->
+  <url><loc>https://editprohub.com/tools/cropping-resizing/cropper.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/square-crop.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/circle-crop.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/aspect-ratio-crop.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/resizer-px.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/resizer-pct.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/bulk-resize.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/bg-eraser.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/grid-cutter.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/passport-photo.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/social-resizer.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/banner-resizer.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/auto-trim.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/collage-maker.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/cropping-resizing/image-splitter.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Category C: Rotation, Flip & Transform -->
+  <url><loc>https://editprohub.com/tools/rotation-transform/rotator.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/rotation-transform/free-rotate.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/rotation-transform/h-flip.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/rotation-transform/v-flip.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/rotation-transform/perspective.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/rotation-transform/straighten.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/rotation-transform/canvas-padding.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/rotation-transform/auto-orient.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/rotation-transform/mirror.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/rotation-transform/tilt-3d.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Category D: Text & Typography -->
+  <url><loc>https://editprohub.com/tools/text-tools/text-on-image.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/meme-generator.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/word-counter.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/char-counter.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/case-converter.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/text-reverser.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/duplicate-remover.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/slug-converter.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/lorem-ipsum.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/text-diff.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/text-sorter.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/text-formatter.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/whitespace-remover.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/encoder-decoder.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/text-tools/binary-ascii.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Category E: Image Conversion & Compression -->
+  <url><loc>https://editprohub.com/tools/conversion-compression/format-converter.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://editprohub.com/tools/conversion-compression/compressor.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://editprohub.com/tools/conversion-compression/to-base64.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/conversion-compression/from-base64.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/conversion-compression/png-to-jpg.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/conversion-compression/jpg-to-png.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/conversion-compression/to-pdf.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/conversion-compression/multi-to-pdf.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/conversion-compression/dpi-changer.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/conversion-compression/file-reducer.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/conversion-compression/svg-to-png.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/conversion-compression/favicon-gen.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Category F: Color Tools -->
+  <url><loc>https://editprohub.com/tools/color-tools/color-picker-img.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/color-tools/color-converter.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/color-tools/palette-extractor.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/color-tools/gradient-gen.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/color-tools/contrast-checker.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/color-tools/random-color.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/color-tools/color-blender.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/color-tools/complementary.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/color-tools/dominant-color.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/color-tools/css-gradient.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Category G: Design & Creative -->
+  <url><loc>https://editprohub.com/tools/design-creative/qr-gen.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://editprohub.com/tools/design-creative/barcode-gen.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/design-creative/watermark.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/design-creative/signature.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/design-creative/border-frame.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/design-creative/sticker-overlay.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/design-creative/photo-grid.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/design-creative/biz-card.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/design-creative/rounded-corners.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/design-creative/bg-changer.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Category H: Utility & Misc -->
+  <url><loc>https://editprohub.com/tools/utility-misc/exif-viewer.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://editprohub.com/tools/utility-misc/screenshot-beautifier.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/utility-misc/compare-slider.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/utility-misc/file-calculator.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/utility-misc/aspect-calculator.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/utility-misc/px-converter.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/utility-misc/meta-stripper.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://editprohub.com/tools/utility-misc/clipboard-paste.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+</urlset>

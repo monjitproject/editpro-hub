@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /generate-pages.cjs
+Disallow: /node_modules/
+Disallow: /assets/js/tools/  # JS files are referenced from HTML, not endpoints themselves
+
+Sitemap: https://editprohub.com/sitemap.xml
+
+# Crawl delay to be polite
+Crawl-delay: 5
+
+# Allow all tool pages to be indexed
+Allow: /tools/

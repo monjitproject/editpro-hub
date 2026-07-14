@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Compressor — Free Online Tool | EditPro Hub</title>
+  <meta name="description" content="Reduce image file size while maintaining visual quality. Upload an image, choose the target size, and download the optimized version.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://editprohub.com/tools/conversion-compression/compressor.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Image Compressor — EditPro Hub">
+  <meta property="og:description" content="Reduce image file size while maintaining visual quality. Upload an image, choose the target size, and download the optimized version.">
+  <meta property="og:url" content="https://editprohub.com/tools/conversion-compression/compressor.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Image Compressor — EditPro Hub">
+  <meta name="twitter:description" content="Reduce image file size while maintaining visual quality. Upload an image, choose the target size, and download the optimized version.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/tool.css">
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar-inner">
+      <a href="/" class="navbar-logo" aria-label="EditPro Hub Home">
+        <span class="logo-icon" aria-hidden="true">⚡</span>
+        <span>EditPro Hub</span>
+      </a>
+      <div class="navbar-nav">
+        <div class="nav-dropdown">
+          <button aria-expanded="false" aria-haspopup="true">Categories ▾</button>
+          <div class="nav-dropdown-menu" id="nav-categories"></div>
+        </div>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div class="navbar-actions">
+        <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="tool-page">
+    <div class="tool-header">
+      <div class="breadcrumb">
+        <a href="/">Home</a> <span aria-hidden="true">/</span>
+        <a href="/#cat-conversion-compression">Conversion & Compression</a> <span aria-hidden="true">/</span>
+        <span aria-current="page">Image Compressor</span>
+      </div>
+      <h1>📦 Image Compressor</h1>
+      <p class="tool-tagline">Reduce image file size while maintaining visual quality. Upload an image, choose the target size, and download the optimized version.</p>
+    </div>
+
+    <!-- AdSense ad unit slot -->
+    <div class="ad-slot" style="min-height:90px;margin:0 var(--container-padding) var(--space-6);">Advertisement</div>
+
+    <div class="tool-container">
+      <!-- Upload Zone -->
+      <div class="upload-zone" id="upload-zone">
+        <div class="upload-icon" aria-hidden="true">📤</div>
+        <h3>Drop your image here or click to upload</h3>
+        <p>Supports PNG, JPG, WEBP, GIF, BMP, SVG</p>
+        <span class="file-types">Max file size: 50MB</span>
+        <input type="file" accept="image/*" aria-label="Upload image file">
+      </div>
+
+      <!-- Tool Workspace -->
+      <div class="tool-workspace" id="tool-workspace">
+        <div class="preview-area" id="preview-area">
+          <canvas id="preview-canvas"></canvas>
+          <div class="tool-loading" id="tool-loading" style="display:none;"><div class="spinner"></div></div>
+        </div>
+
+        <div class="controls-panel">
+          <h3>⚙️ Controls</h3>
+          
+          <div class="control-group">
+            <label>Quality <span class="value" id="compressQuality-value">80%</span></label>
+            <input type="range" id="compressQuality" min="1" max="100" value="80" step="1">
+          </div>
+          <div class="control-group">
+            <label>Format</label>
+            <select id="compressFormat">
+              <option value="0" selected>JPEG</option><option value="1" >WEBP</option><option value="2" >PNG</option>
+            </select>
+          </div>
+          <div class="tool-actions">
+            <button class="btn btn-primary" id="download-btn">⬇ Download</button>
+            <button class="btn btn-secondary" id="reset-btn">↺ Reset</button>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- Paste Support Notice -->
+      <div style="text-align:center;margin-top:var(--space-4);color:var(--text-muted);font-size:var(--text-sm);">
+        💡 Tip: You can also paste an image from clipboard using <kbd style="padding:2px 6px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:4px;font-size:12px;">Ctrl</kbd> + <kbd style="padding:2px 6px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:4px;font-size:12px;">V</kbd>
+      </div>
+    </div>
+
+    <!-- AdSense ad unit slot -->
+    <div class="ad-slot" style="min-height:250px;margin:var(--space-8) var(--container-padding);">Advertisement</div>
+
+    <!-- Tool Info Section -->
+    <div class="tool-info">
+      <section>
+        <h2>How to Use Image Compressor</h2>
+        <ol>
+          <li><strong>Upload your image</strong> — Drag and drop your image into the upload area, or click to browse your files.</li>
+          <li><strong>Adjust settings</strong> — Use the controls panel to modify your image. All changes preview in real time.</li>
+          <li><strong>Download result</strong> — When you're happy with the result, click the Download button to save your edited image.</li>
+        </ol>
+        <p>Reduce image file size while maintaining visual quality. Upload an image, choose the target size, and download the optimized version. This tool processes everything in your browser — your files are never uploaded to any server, ensuring complete privacy and security.</p>
+      </section>
+
+      <section>
+        <h2>Features</h2>
+        <ul><li>Target file size option</li><li>Quality-based compression</li><li>Before/after size comparison</li><li>Visual quality preview</li><li>Batch compression</li></ul>
+      </section>
+
+      <section>
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+          
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How much can I compress?
+          <span class="faq-chevron" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-answer">
+          <p>Most images can be reduced by 50-80% with minimal visible quality loss. Results depend on the original format and content.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Will compression be visible?
+          <span class="faq-chevron" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-answer">
+          <p>At moderate settings, compression artifacts are barely noticeable. Preview the result before downloading.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What compression method is used?
+          <span class="faq-chevron" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-answer">
+          <p>We use browser-native canvas compression (quality parameter) which provides excellent results for JPEG and WebP output.</p>
+        </div>
+      </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Why EditPro Hub?</h2>
+        <p>EditPro Hub provides free, browser-based tools that run entirely on your device. No uploads, no accounts, no watermarks. Our Image Compressor is part of a suite of 100+ editing tools designed for quick, professional results. Whether you're a designer, photographer, content creator, or casual user, our tools deliver instant results without the complexity of desktop software.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="navbar-logo" style="color:white;margin-bottom:var(--space-4);">
+            <span class="logo-icon" aria-hidden="true">⚡</span><span>EditPro Hub</span>
+          </a>
+          <p>100+ free browser-based editing tools. Your files never leave your device.</p>
+        </div>
+        <div><h4>Tools</h4><div class="footer-links">
+          <a href="/tools/image-editing/brightness.html">Image Editing</a>
+          <a href="/tools/cropping-resizing/cropper.html">Cropping & Resizing</a>
+          <a href="/tools/rotation-transform/rotator.html">Rotation & Transform</a>
+          <a href="/tools/text-tools/word-counter.html">Text Tools</a>
+        </div></div>
+        <div><h4>More Tools</h4><div class="footer-links">
+          <a href="/tools/conversion-compression/format-converter.html">Conversion</a>
+          <a href="/tools/color-tools/color-converter.html">Color Tools</a>
+          <a href="/tools/design-creative/qr-gen.html">Design Tools</a>
+          <a href="/tools/utility-misc/exif-viewer.html">Utilities</a>
+        </div></div>
+        <div><h4>Company</h4><div class="footer-links">
+          <a href="/about.html">About Us</a>
+          <a href="/contact.html">Contact</a>
+          <a href="/privacy-policy.html">Privacy Policy</a>
+          <a href="/terms.html">Terms of Service</a>
+          <a href="/disclaimer.html">Disclaimer</a>
+        </div></div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EditPro Hub. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <div class="cookie-banner" role="dialog" aria-label="Cookie consent">
+    <div class="cookie-inner">
+      <p>🍪 We use cookies and third-party ads to keep EditPro Hub free. By using our site, you agree to our use of cookies as described in our <a href="/privacy-policy.html">Privacy Policy</a>.</p>
+      <div class="cookie-actions">
+        <button class="btn btn-primary btn-sm cookie-accept">Accept</button>
+        <button class="btn btn-ghost btn-sm cookie-dismiss">Dismiss</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/js/utils.js"></script>
+  <script src="/assets/js/tools-registry.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/tools/compressor.js"></script>
+</body>
+</html>

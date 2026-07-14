@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EditPro Hub — 100+ Free Online Editing Tools | No Signup, No Watermarks</title>
+  <meta name="description" content="EditPro Hub offers 100+ free browser-based editing tools for images, text, colors, and more. No signup required, no watermarks, 100% client-side processing.">
+  <meta name="keywords" content="free online editor, image editor, text tools, photo editing, image compressor, QR code generator, meme generator">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://editprohub.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="EditPro Hub — 100+ Free Online Editing Tools">
+  <meta property="og:description" content="Free browser-based editing tools for images, text, colors & more. No signup, no watermarks.">
+  <meta property="og:url" content="https://editprohub.com/">
+  <meta property="og:image" content="https://editprohub.com/assets/img/og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EditPro Hub — 100+ Free Online Editing Tools">
+  <meta name="twitter:description" content="Free browser-based editing tools for images, text, colors & more. No signup, no watermarks.">
+
+  <!-- Styles -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <!-- Page Loader -->
+  <div class="page-loader" aria-hidden="true">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" aria-live="polite"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar-inner">
+      <a href="/" class="navbar-logo" aria-label="EditPro Hub Home">
+        <span class="logo-icon" aria-hidden="true">⚡</span>
+        <span>EditPro Hub</span>
+      </a>
+
+      <div class="navbar-nav">
+        <div class="nav-dropdown">
+          <button aria-expanded="false" aria-haspopup="true">Categories ▾</button>
+          <div class="nav-dropdown-menu" id="nav-categories"></div>
+        </div>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+
+      <div class="navbar-actions">
+        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">🌙</button>
+        <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge">✨ 100% Free &amp; Browser-Based</div>
+          <h1>
+            <span class="gradient-text">100+ Free Online</span><br>
+            Editing Tools
+          </h1>
+          <p class="hero-description">
+            Professional image editing, text processing, color tools, and more — all running directly in your browser.
+            No signup, no watermarks, no upload to servers. Your files never leave your device.
+          </p>
+
+          <div class="search-bar">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input type="search" placeholder="Search tools... e.g. 'compress', 'crop', 'QR code'" aria-label="Search tools" autocomplete="off">
+            <button class="search-clear" aria-label="Clear search">&times;</button>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#all-tools" class="btn btn-primary btn-lg">Explore All Tools</a>
+            <a href="#popular" class="btn btn-secondary btn-lg">Popular Tools</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-number">100+</div>
+              <div class="hero-stat-label">Free Tools</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number">0</div>
+              <div class="hero-stat-label">Server Uploads</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number">100%</div>
+              <div class="hero-stat-label">Free Forever</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-3d-scene">
+            <div class="hero-shape hero-shape-1">🎨</div>
+            <div class="hero-shape hero-shape-2">✂️</div>
+            <div class="hero-shape hero-shape-3">📝</div>
+            <div class="hero-shape hero-shape-4">🌈</div>
+            <div class="hero-shape hero-shape-5">⭐</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AdSense Ad Slot -->
+    <!-- AdSense ad unit slot -->
+
+    <!-- Popular Tools Section -->
+    <section class="section" id="popular">
+      <div class="container">
+        <h2 class="section-title animate-in">🔥 Most Popular Tools</h2>
+        <p class="section-subtitle animate-in">The tools our users love most — quick, powerful, and easy to use.</p>
+        <div class="tools-grid" id="popular-grid"></div>
+      </div>
+    </section>
+
+    <!-- All Tools by Category -->
+    <section class="section" id="all-tools" style="background: var(--bg-secondary);">
+      <div class="container">
+        <h2 class="section-title animate-in">All Tools by Category</h2>
+        <p class="section-subtitle animate-in">Browse our complete collection of editing tools organized by category.</p>
+
+        <div id="categories-container"></div>
+
+        <!-- No results state -->
+        <div class="no-results" role="status">
+          <div class="emoji" aria-hidden="true">🔍</div>
+          <h3>No tools found</h3>
+          <p>Try a different search term or browse by category.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title animate-in">Why Choose EditPro Hub?</h2>
+        <p class="section-subtitle animate-in">Everything happens in your browser. Your files never leave your device.</p>
+
+        <div class="tools-grid" style="grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));">
+          <div class="tool-card animate-in" style="cursor: default;">
+            <div class="tool-card-icon" style="background: #dbeafe; color: #2563eb;">🔒</div>
+            <h3>100% Private</h3>
+            <p>All processing happens in your browser. Files are never uploaded to any server.</p>
+          </div>
+          <div class="tool-card animate-in" style="cursor: default;">
+            <div class="tool-card-icon" style="background: #d1fae5; color: #059669;">⚡</div>
+            <h3>Lightning Fast</h3>
+            <p>No waiting for uploads or server processing. Results are instant.</p>
+          </div>
+          <div class="tool-card animate-in" style="cursor: default;">
+            <div class="tool-card-icon" style="background: #fef3c7; color: #d97706;">💰</div>
+            <h3>Completely Free</h3>
+            <p>No hidden fees, no premium plans, no watermarks on your exports.</p>
+          </div>
+          <div class="tool-card animate-in" style="cursor: default;">
+            <div class="tool-card-icon" style="background: #fce7f3; color: #db2777;">📱</div>
+            <h3>Works Everywhere</h3>
+            <p>Desktop, tablet, or phone — all tools work in any modern browser.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="navbar-logo" style="color: white; margin-bottom: var(--space-4);">
+            <span class="logo-icon" aria-hidden="true">⚡</span>
+            <span>EditPro Hub</span>
+          </a>
+          <p>100+ free browser-based editing tools for images, text, colors, and more. Your files never leave your device — everything runs locally in your browser.</p>
+        </div>
+        <div>
+          <h4>Image Tools</h4>
+          <div class="footer-links">
+            <a href="/tools/image-editing/brightness.html">Brightness Adjuster</a>
+            <a href="/tools/cropping-resizing/cropper.html">Image Cropper</a>
+            <a href="/tools/cropping-resizing/resizer-px.html">Image Resizer</a>
+            <a href="/tools/conversion-compression/compressor.html">Image Compressor</a>
+            <a href="/tools/conversion-compression/format-converter.html">Format Converter</a>
+          </div>
+        </div>
+        <div>
+          <h4>Text & Color</h4>
+          <div class="footer-links">
+            <a href="/tools/text-tools/word-counter.html">Word Counter</a>
+            <a href="/tools/text-tools/meme-generator.html">Meme Generator</a>
+            <a href="/tools/color-tools/color-converter.html">Color Converter</a>
+            <a href="/tools/color-tools/gradient-gen.html">Gradient Generator</a>
+            <a href="/tools/design-creative/qr-gen.html">QR Code Generator</a>
+          </div>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <div class="footer-links">
+            <a href="/about.html">About Us</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/privacy-policy.html">Privacy Policy</a>
+            <a href="/terms.html">Terms of Service</a>
+            <a href="/disclaimer.html">Disclaimer</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EditPro Hub. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter">🐦</a>
+          <a href="#" aria-label="GitHub">💻</a>
+          <a href="#" aria-label="YouTube">📺</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- Cookie Banner -->
+  <div class="cookie-banner" role="dialog" aria-label="Cookie consent">
+    <div class="cookie-inner">
+      <p>🍪 We use cookies and third-party ads to keep EditPro Hub free. By using our site, you agree to our use of cookies as described in our <a href="/privacy-policy.html">Privacy Policy</a>.</p>
+      <div class="cookie-actions">
+        <button class="btn btn-primary btn-sm cookie-accept">Accept</button>
+        <button class="btn btn-ghost btn-sm cookie-dismiss">Dismiss</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/assets/js/utils.js"></script>
+  <script src="/assets/js/tools-registry.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script>
+    // Render homepage tool grids
+    document.addEventListener('DOMContentLoaded', () => {
+      renderNavCategories();
+      renderPopularTools();
+      renderAllCategories();
+    });
+
+    function renderNavCategories() {
+      const nav = document.getElementById('nav-categories');
+      if (!nav) return;
+      CATEGORIES.forEach(cat => {
+        const a = document.createElement('a');
+        a.href = `#cat-${cat.id}`;
+        a.innerHTML = `<span class="cat-icon ${CAT_CLASS_MAP[cat.id]}" style="background: ${cat.color}20; color: ${cat.color};" aria-hidden="true">${cat.icon}</span> ${cat.name}`;
+        nav.appendChild(a);
+      });
+    }
+
+    function renderPopularTools() {
+      const grid = document.getElementById('popular-grid');
+      if (!grid) return;
+      const popular = TOOLS_REGISTRY.filter(t => t.popular);
+      popular.forEach(tool => {
+        grid.appendChild(createToolCard(tool, true));
+      });
+    }
+
+    function renderAllCategories() {
+      const container = document.getElementById('categories-container');
+      if (!container) return;
+
+      CATEGORIES.forEach(cat => {
+        const tools = TOOLS_REGISTRY.filter(t => t.category === cat.id);
+        if (tools.length === 0) return;
+
+        const section = document.createElement('div');
+        section.className = 'category-section animate-in';
+        section.id = `cat-${cat.id}`;
+
+        section.innerHTML = `
+          <div class="category-header">
+            <div class="cat-icon ${CAT_CLASS_MAP[cat.id]}" style="background: ${cat.color}20; color: ${cat.color}; font-size: 1.5rem;" aria-hidden="true">${cat.icon}</div>
+            <div>
+              <h2>${cat.name}</h2>
+              <p>${cat.desc} &mdash; ${tools.length} tools</p>
+            </div>
+          </div>
+          <div class="tools-grid"></div>
+        `;
+
+        const grid = section.querySelector('.tools-grid');
+        tools.forEach(tool => {
+          grid.appendChild(createToolCard(tool));
+        });
+
+        container.appendChild(section);
+      });
+
+      // Re-init animations for new elements
+      initScrollAnimations();
+    }
+
+    function createToolCard(tool, showPopular = false) {
+      const card = document.createElement('a');
+      card.href = tool.url;
+      card.className = 'tool-card';
+      card.setAttribute('data-name', tool.name.toLowerCase());
+      card.setAttribute('data-desc', tool.desc.toLowerCase());
+
+      const catClass = CAT_CLASS_MAP[tool.category] || 'cat-utility';
+      const catInfo = CATEGORIES.find(c => c.id === tool.category);
+
+      card.innerHTML = `
+        <div class="tool-card-inner">
+          <div class="tool-card-icon ${catClass}" style="${catInfo ? `background: ${catInfo.color}15; color: ${catInfo.color};` : ''}">${tool.icon}</div>
+          <h3>${tool.name} ${tool.popular ? '<span class="tool-label label-popular">Popular</span>' : ''}</h3>
+          <p>${tool.desc}</p>
+        </div>
+      `;
+
+      return card;
+    }
+  </script>
+</body>
+</html>

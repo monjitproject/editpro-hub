@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Page Not Found — EditPro Hub</title><meta name="description" content="The page you are looking for could not be found. Browse our collection of free online editing tools."><link rel="stylesheet" href="/assets/css/style.css"></head>
+<body>
+  <nav class="navbar"><div class="navbar-inner"><a href="/" class="navbar-logo"><span class="logo-icon">⚡</span><span>EditPro Hub</span></a><div class="navbar-nav"><a href="/">Home</a></div><div class="navbar-actions"><button class="theme-toggle">🌙</button></div></div></nav>
+  <main style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;text-align:center;padding:var(--space-8);padding-top:calc(var(--nav-height) + var(--space-16));">
+    <div style="font-size:6rem;line-height:1;margin-bottom:var(--space-4);">🔍</div>
+    <h1>404 — Page Not Found</h1>
+    <p style="max-width:480px;margin-bottom:var(--space-8);color:var(--text-secondary);font-size:var(--text-lg);">The page you're looking for doesn't exist or has been moved. Let's get you back to the tools.</p>
+    <div style="display:flex;gap:var(--space-4);flex-wrap:wrap;justify-content:center;">
+      <a href="/" class="btn btn-primary btn-lg">← Back to Home</a>
+      <a href="/#all-tools" class="btn btn-secondary btn-lg">Browse All Tools</a>
+    </div>
+    <div class="search-bar" style="margin-top:var(--space-8);max-width:480px;">
+      <span class="search-icon" aria-hidden="true">🔍</span>
+      <input type="text" placeholder="Search for a tool..." id="search-404" autocomplete="off" aria-label="Search tools">
+    </div>
+    <div id="suggestions" style="margin-top:var(--space-4);display:flex;flex-wrap:wrap;gap:var(--space-2);justify-content:center;"></div>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer-bottom"><p>&copy; 2025 EditPro Hub</p></div></div></footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const input = document.getElementById('search-404');
+      if (!input) return;
+      const tools = [{"name":"Image Cropper","url":"/tools/cropping-resizing/cropper.html"},{"name":"Brightness Adjuster","url":"/tools/image-editing/brightness.html"},{"name":"Image Compressor","url":"/tools/conversion-compression/compressor.html"},{"name":"QR Code Generator","url":"/tools/design-creative/qr-gen.html"},{"name":"Word Counter","url":"/tools/text-tools/word-counter.html"}];
+      const suggest = document.getElementById('suggestions');
+      input.addEventListener('input', () => {
+        const q = input.value.toLowerCase().trim();
+        if (!q || q.length < 2) { suggestions.innerHTML = ''; return; }
+        suggestions.innerHTML = tools.filter(t => t.name.toLowerCase().includes(q))
+          .map(t => `<a href="${t.url}" class="btn btn-sm btn-ghost">${t.name}</a>`).join('');
+      });
+    });
+  </script>
+</body>
+</html>
