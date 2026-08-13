@@ -1333,7 +1333,7 @@ const ALL_TOOLS = [...TOOLS, ...MORE_TOOLS];
 
 // ── HTML Template ──
 function generateToolPage(tool) {
-  const siteUrl = 'https://editprohub.com';
+  const siteUrl = 'https://ttcb.in';
   const pageUrl = `${siteUrl}/tools/${tool.cat}/${tool.id}.html`;
 
   const controlsHTML = (tool.controls || []).map(ctrl => {
