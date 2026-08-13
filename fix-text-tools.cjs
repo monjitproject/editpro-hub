@@ -16,7 +16,7 @@ function getHeader(tool) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${tool.name} — Free Online Tool | EditPro Hub</title>
   <meta name="description" content="${tool.shortDesc}">
-  <link rel="canonical" href="https://editprohub.com/tools/text-tools/${tool.id}.html">
+  <link rel="canonical" href="https://ttcb.in/tools/text-tools/${tool.id}.html">
   <meta property="og:title" content="${tool.name} — EditPro Hub">
   <meta property="og:description" content="${tool.shortDesc}">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
